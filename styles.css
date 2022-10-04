@@ -1,0 +1,57 @@
+h1, h2, h3, h4, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+body{
+    font-family: sans-serif, Arial;
+    color: #333;
+}
+header {
+    padding: 50px;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+main{
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+main form {
+    width: 40%;
+}
+main article{
+    width: 45%;
+}
+h1,h2,h3,h4,p {
+    margin-bottom: 1em;
+}
+#title{
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+input, textarea, #wishList button{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 10px;
+    border: 1px solid #666;
+    box-sizing: border-box;
+    
+}
+.card{
+    padding: 20px;
+    background-color: #dbd8d8;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #ada9a9;
+}
